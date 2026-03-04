@@ -1,0 +1,25 @@
+venv/
+.venv/
+env/
+
+# arquivos de dados (o código já baixa isso automaticamente)
+data/
+
+# credenciais e variáveis de ambiente (crítico de segurança)
+.env
+
+# arquivos temporários do jupyter notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# arquivos compilados do python
+__pycache__/
+*.py[cod]
+
+# ides
+.vscode/
+.idea/
+
+# arquivos de sistema
+.DS_Store
+Thumbs.db
